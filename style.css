@@ -1,0 +1,209 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/*---------------------
+navbar 
+----------------------*/
+.nav-bg-cus {
+    background-color: whitesmoke;
+}
+
+.navbar-txt {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.navbar-child-link {
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 26px;
+}
+
+.nav-hover-bg{
+    transition: 0.4s;
+}
+
+.nav-hover-bg:hover{
+    background-color: rgba(0, 0, 0, 0.151);
+    border-radius: 8px;
+}
+
+/*---------------------
+img slider
+----------------------*/
+
+.carousel-btn {
+    height: 44px;
+    width: 168px;
+    border-radius: 6px;
+    background-color: whitesmoke;
+    color: red;
+    border: none;
+    transition: 0.4s;
+}
+
+.carousel-btn:hover {
+    background-color: cadetblue;
+    color: whitesmoke;
+}
+
+/*---------------------
+bonus part video
+----------------------*/
+
+video {
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+}
+
+/*---------------------
+badge
+----------------------*/
+
+.badge-sp {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    border-radius: 10px;
+}
+
+/*---------------------
+packages part
+----------------------*/
+
+.package-hot {
+    height: 480px;
+    width: 280px !important;
+    transform: scale(1.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 10px 10px 10px rgba(107, 107, 107, 0.281);
+}
+
+.fas{
+    color: #a295ff;
+}
+
+.package-h1 {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.package-check {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.package-btn {
+    width: 190px;
+    height: 45px;
+    background-color: #ffdaf1;
+    color: #3F87F5;
+    border: none;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.package-btn:hover {
+    background-color: teal;
+    color: whitesmoke;
+}
+
+#sp-btn{
+    background-color: whitesmoke;
+    color: #3F87F5;
+}
+
+#sp-btn:hover{
+    background-color: teal;
+    color: whitesmoke;
+}
+
+/*---------------------
+photo grid
+----------------------*/
+
+.photo-div{
+    transition: 0.4s;
+    overflow: hidden;
+}
+
+.photo-div:hover{
+    transform: scale(1.1);
+}
+
+/*---------------------
+About us part
+----------------------*/
+
+.section-3 {
+    margin-top: 100px;
+}
+
+.sec-3-child {
+    box-shadow: 10px 10px 10px rgba(107, 107, 107, 0.158);
+    border-radius: 7px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.section-3-child {
+    box-shadow: 10px 10px 10px rgba(107, 107, 107, 0.158);
+    display: flex;
+    justify-content: center;
+}
+
+.sec-3-txt {
+    transition: 0.4s;
+}
+
+.sec-3-txt:hover {
+    background-color: rgba(0, 0, 0, 0.164);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+/*---------------------
+FAQ part
+----------------------*/
+
+.sec-4 img {
+    border-radius: 7px;
+}
+
+.sec-5-a {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*---------------------
+footer part
+----------------------*/
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: rgb(17, 17, 17);
+    margin-bottom: 0;
+    padding: 10px;
+    color: whitesmoke;
+    justify-items: center;
+}
+
+.footer-h1-1 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-h1-2 {
+    font-size: 18px;
+    font-weight: 500;
+}
